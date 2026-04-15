@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Record Table</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+            background-color: #96D4D4;
+        }
+
+        /* Zebra stripes (rows) */
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+
+        /* Vertical stripes (columns) */
+        td:nth-child(even), th:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+
+        /* Hover effect */
+        tr:hover {
+            background-color: #bde0e0;
+        }
+
+        /* Horizontal divider */
+        tr {
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Student Record</h2>
+
+    <table>
+        <tr>
+            <th colspan="3">Student Information</th>
+        </tr>
+
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+
+        <tr>
+            <td>Ify</td>
+            <td>20</td>
+            <td>ify@email.com</td>
+        </tr>
+
+        <tr>
+            <td>Samuel</td>
+            <td>21</td>
+            <td>samuel@email.com</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Amaka</td>
+            <td>19</td>
+            <td>amaka1@email.com</td>
+        </tr>
+
+        <tr>
+            <td>19</td>
+            <td>amaka2@email.com</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
