@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(35, 255, 251)
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu-Items{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    padding: 0px 20px;
+    
+}
+
+.brandname{
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.24px;
+    color: 1A1A1A;
+    font-weight: bold;
+
+}
+
+.buttonDiv{
+    background-color: brown;
+    border-radius: 6px;
+    width: 108.47;
+    height: 44;
+    color:antiquewhite;
+    opacity: 100%;
+    border: 3px solid;
+    border-color: darkred;
+
+}
